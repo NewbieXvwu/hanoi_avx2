@@ -1,0 +1,1 @@
+"C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\VC\Auxiliary\Build\vcvarsall.bat" x64 && cl /Ox /MT /openmp:experimental /Qpar-report:2 /Qvec-report:2 /fp:fast /GL /arch:AVX2 /D_WIN64 /DNDEBUG /EHsc /std:c++17 /source-charset:utf-8 hanoi_avx2.cpp
